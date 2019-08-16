@@ -1,0 +1,62 @@
+
+What is GIT?
+	It is a distributed version conrtol system. 
+Distributed version control system don't relay on central server all the 
+time to store all the version of the project file. So every developer has 
+a local copy and every body mentain a local repository. They commit their 
+code without any interference when work complete. Using pull and push 
+request the devlopers pull and push the data from local to central repository.
+
+What is the difference between git and github?
+	Git is the version control system to manage source code.
+Github is the web/host service to git repository.
+
+what are other version control system?
+	SVN 
+
+How to create a local git repository ?
+
+  cd StudyDevops/
+  pwd
+  git init	# create local repository 
+  ls -la
+  
+How communicate with GitHub repository?
+  
+  mkrid  AllDevopsTopics
+
+  cd AllDevopsTopics/
+
+  git remote add origin https://github.com/sksumanta/studyDevops.git  # create reference to a remote repository for further tracking
+			or
+  git clone https://github.com/sksumanta/studyDevops.git  # clone the remote repository
+  
+  git remote -v    # it will show which activity we can do 
+  git add .
+  git commit -m  "add the file to check git is working"
+
+  git pull --allow-unrelated-histories https://github.com/sksumanta/studyDevops.git
+  git push origin master
+
+
+what is the difference between git remote and git clone?
+git remote adds, a reference to a remote repository for further tracking.
+	git remote add origin "url-of-repository"
+	
+git clone is used to copy or clone a different repository.
+	git clone "url-of-repository"
+	
+how to create a git project?
+
+what is git branch?
+
+what is staging in git?
+
+How to delete github repository?
+	On GitHub, navigate to the main page of the repository.
+Under your repository name, click  Settings.
+Under Danger Zone, click Delete this repository.
+
+
+
+
