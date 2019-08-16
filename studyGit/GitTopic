@@ -35,6 +35,9 @@ How communicate with GitHub repository?
   git add .
   git commit -m  "add the file to check git is working"
 
+  cd studyDevops
+				the new prompt is Sumanta@Sumanta-Lenovo-PC MINGW64 /e/AllDevopsTopics/studyDevops (master)
+  
   git pull --allow-unrelated-histories https://github.com/sksumanta/studyDevops.git
   git push origin master
 
